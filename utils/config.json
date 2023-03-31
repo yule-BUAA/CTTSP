@@ -1,0 +1,44 @@
+{
+    "seed": 0,
+    "model_name": "CTTSP",
+    "dataset_name": "JingDong",
+    "cuda": 0,
+    "epochs": 2000,
+    "patience": 100,
+    "optimizer": "Adam",
+    "weight_decay": 0.0,
+
+    "learning_rate": 0.001,
+
+    "JingDong": {
+        "dropout": 0.2,
+        "embedding_dimension": 64,
+        "user_perspective_importance": 0.9,
+        "continuous_time_probability_importance": 0.9,
+        "scheduler_iter": 1000
+    },
+
+    "DC": {
+        "dropout": 0.2,
+        "embedding_dimension": 64,
+        "user_perspective_importance": 0.5,
+        "continuous_time_probability_importance": 0.0,
+        "scheduler_iter": 1000
+    },
+
+    "TaFeng": {
+        "dropout": 0.15,
+        "embedding_dimension": 64,
+        "user_perspective_importance": 0.05,
+        "continuous_time_probability_importance": 0.7,
+        "scheduler_iter": 5000
+    },
+
+    "TaoBao": {
+        "dropout": 0.05,
+        "embedding_dimension": 32,
+        "user_perspective_importance": 0.9,
+        "continuous_time_probability_importance": 0.7,
+        "scheduler_iter": 10000
+    }
+}
