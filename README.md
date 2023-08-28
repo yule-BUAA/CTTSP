@@ -1,7 +1,7 @@
 # Continuous-Time User Preference Modelling for Temporal Sets Prediction
 
 The description of "Continuous-Time User Preference Modelling for Temporal Sets Prediction" 
-is [available here](). 
+is [available here](https://arxiv.org/abs/2204.05490). 
 
 ### Original data:
 The original data could be downloaded from [here](https://drive.google.com/file/d/1KCUsQ57DPfn7gldjqWBa4GvIZNi_UhJy/view?usp=sharing). 
@@ -38,3 +38,14 @@ Hyperparameters can be found in ```./utils/config.json``` file, and you can adju
 | embedding dimension  | 64  | 64  | 64  |  32   |
 | user perspective importance  | 0.9  | 0.5  | 0.05 |  0.9  |
 | continuous-time probability importance  | 0.9  | 0.0  | 0.7  |  0.7   |
+
+## Citation
+Please consider citing our paper when using this project.
+```{bibtex}
+@article{yu2022continuous,
+  title={Continuous-Time User Preference Modelling for Temporal Sets Prediction},
+  author={Yu, Le and Liu, Zihang and Sun, Leilei and Du, Bowen and Liu, Chuanren and Lv, Weifeng},
+  journal={arXiv preprint arXiv:2204.05490},
+  year={2022}
+}
+```
